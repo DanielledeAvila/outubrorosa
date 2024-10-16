@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 20vh;
+  font-family: "Noto Sans", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .topo {
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+}
+header .topo h1 {
+  font-weight: 400;
+}
+header nav {
+  height: 20vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul {
+  list-style: none;
+  height: 10vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primeirobloco {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.primeirobloco h2 {
+  font-size: 1.2rem;
+  font-family: "Noto Sans", serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 50vw;
+  height: 50vh;
+  padding: 20px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primeirobloco section img {
+  width: 35vw;
+  height: 70vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.segundobloco {
+  background-color: #FF69B4;
+  height: 60vh;
+  color: #E4EEF1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+figure {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  width: 50%;
+  height: 80%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: "Noto Sans", serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.terceirobloco {
+  height: 60vh;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.terceirobloco img {
+  width: 15vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #FF69B4;
+  height: 30vh;
+  color: #E4EEF1;
+  font-size: 1.2rem;
+  font-family: "Noto Sans", serif;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footerimg {
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .h3 {
+  height: 30vh;
+  width: 50vw;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+footer .footerimg2 {
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
